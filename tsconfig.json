@@ -1,0 +1,14 @@
+{
+  // Visit https://aka.ms/tsconfig to read more about this file
+  "compilerOptions": {
+    "target": "ES2022", /* Use a modern target for compatibility */
+    "module": "NodeNext", /* Use the modern Node.js module resolution */
+    "moduleResolution": "NodeNext", /* Use the modern Node.js module resolution */
+    "esModuleInterop": true, /* Allows using default imports for CommonJS modules (like express) */
+    "allowSyntheticDefaultImports": true, /* Works alongside esModuleInterop */
+    "rootDir": "./",
+    "outDir": "./dist",
+    "strict": true, /* Recommended for TypeScript */
+    "skipLibCheck": true /* Skip type checking declaration files */
+  }
+}
